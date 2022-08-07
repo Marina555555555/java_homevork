@@ -17,6 +17,8 @@ public class Task6_1 {
         lB.add(8);
         appData.addColumn("b", lB);
         
+        appData.display();
+        
         System.out.println("Данные записаны в data.csv");
         appData.save("data.csv");
     }

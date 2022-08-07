@@ -9,6 +9,10 @@ public class AppData {
         data.put(title, numbers);
     }
 
+    public void display() {
+        System.out.println(data);
+    }
+
     public void save(String fileName) {
         try {
             FileWriter writer = new FileWriter(fileName);
